@@ -40,8 +40,15 @@ func main() {
 	// differentLenAndCap = differentLenAndCap[:cap(differentLenAndCap)]
 	// fmt.Print(len(differentLenAndCap))
 
-	aByte := []byte{1, 2, 3}
-	aByte = append(aByte, 4, 5, 6, 7)
+	// APPEND
+	// aByte := []byte{1, 2, 3}
+	// aByte = append(aByte, 4, 5, 6, 7)
 
-	fmt.Println(aByte)
+	// fmt.Println(aByte)
+
+	// APPEND WITH SPREAD OPERATOR
+	sliceOne := []int{1, 2, 3, 4}
+	sliceTwo := []int{5, 6, 7, 8}
+	combineSlice := append(sliceOne, sliceTwo...)
+	fmt.Println(combineSlice)
 }
