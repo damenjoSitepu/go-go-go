@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println("Basic Array")
 	var myNumber [2]int
@@ -37,4 +39,9 @@ func main() {
 	// differentLenAndCap = differentLenAndCap[2:4]
 	// differentLenAndCap = differentLenAndCap[:cap(differentLenAndCap)]
 	// fmt.Print(len(differentLenAndCap))
+
+	aByte := []byte{1, 2, 3}
+	aByte = append(aByte, 4, 5, 6, 7)
+
+	fmt.Println(aByte)
 }
