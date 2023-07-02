@@ -22,4 +22,19 @@ func main() {
 	// fmt.Print(randInt[:2])
 	// fmt.Print(randInt[4:])
 	// fmt.Print(randInt[:])
+
+	// randLetter := []string{"A", "B"}
+	// referencesRandLetter := randLetter[:]
+	// fmt.Print(referencesRandLetter)
+
+	// originalLetter := []string{"P", "A", "P", "E", "R"}
+	// copyLetter := originalLetter[3:]
+	// copyLetter[0] = "A"
+	// fmt.Println(copyLetter)
+	// fmt.Print(originalLetter)
+
+	// differentLenAndCap := make([]int, 5)
+	// differentLenAndCap = differentLenAndCap[2:4]
+	// differentLenAndCap = differentLenAndCap[:cap(differentLenAndCap)]
+	// fmt.Print(len(differentLenAndCap))
 }
