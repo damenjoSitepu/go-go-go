@@ -11,7 +11,7 @@ func main() {
 	log.SetFlags(0)
 	// message := print.Hina("Tari Puspita Sari")
 	// message, e := print.Hina("Damenjo Sitepu")
-	message, e := print.Hina("")
+	message, e := print.Hina("aso")
 	if e != nil {
 		log.Fatal(e)
 	}
